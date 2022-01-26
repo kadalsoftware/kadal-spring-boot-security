@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kadal</groupId>
-    <artifactId>KadalSpringSecurity</artifactId>
-    <version>v1</version>
-    <name>KadalSpringSecurity</name>
-    <description>KadalSpringSecurity</description>
+    <artifactId>kadal-springboot-security</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>com.kadal-springboot-security</name>
+    <description>com.kadal-springboot-security</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -30,12 +30,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -56,15 +50,12 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
             <version>3.0.0</version>
         </dependency>
-
 
     </dependencies>
 
