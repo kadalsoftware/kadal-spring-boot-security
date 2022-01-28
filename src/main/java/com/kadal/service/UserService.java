@@ -1,9 +1,7 @@
 package com.kadal.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kadal.dto.UserDTO;
 import com.kadal.entity.CustomUser;
-import com.kadal.entity.Permission;
 import com.kadal.entity.Role;
 import com.kadal.repository.RoleRepository;
 import com.kadal.repository.UserRepository;

@@ -1,7 +1,7 @@
-package com.kadal.response;import lombok.AllArgsConstructor;
-import lombok.Data;
+package com.kadal.response;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 @Data
 @AllArgsConstructor

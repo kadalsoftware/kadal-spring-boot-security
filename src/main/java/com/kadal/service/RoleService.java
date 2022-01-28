@@ -1,7 +1,5 @@
 package com.kadal.service;
 
-import com.kadal.dto.UserDTO;
-import com.kadal.entity.CustomUser;
 import com.kadal.entity.Permission;
 import com.kadal.entity.Role;
 import com.kadal.repository.PermissionRepository;

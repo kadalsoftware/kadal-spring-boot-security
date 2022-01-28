@@ -1,6 +1,5 @@
 package com.kadal.enums;
 
-
 public enum ResponseEnum {
     SUCCESSFUL_MESSAGE("İşlem Başarılı"),
     ERROR_MESSAGE("İşlem Başarısız"),

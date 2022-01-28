@@ -1,6 +1,5 @@
 package com.kadal.service;
 
-import com.kadal.entity.Permission;
 import com.kadal.entity.Role;
 
 import java.util.List;
